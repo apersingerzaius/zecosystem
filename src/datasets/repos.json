@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {"id": "Prism", "group": 2},
+    {"id": "ZED", "group": 2},
+    {"id": "JS SDK", "group": 2}
+  ],
+  "links": [
+    {"source": "Prism", "target": "ZED", "value": 4},
+    {"source": "ZED", "target": "JS SDK", "value": 4}
+  ]
+}
