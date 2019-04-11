@@ -17,3 +17,15 @@ export type d3Graph = {
   nodes: d3Node[],
   links: d3Link[]
 };
+
+export type node = {
+  id: string,
+  group: number,
+  size: number
+};
+
+export type link = {
+  source: string,
+  target: string,
+  value: string
+};

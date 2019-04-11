@@ -1,9 +1,6 @@
 import ForceGraph from 'force-graph';
-import ReactDOM from 'react';
 import * as React from 'react'
 import { ForceGraph2D } from 'react-force-graph';
-import b from '../datasets/miserables.json';
-import c from '../datasets/repos.json';
 
 /**
  * Not using this anymore - found react version:
