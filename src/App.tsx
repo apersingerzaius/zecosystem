@@ -2,9 +2,7 @@ import React, {Component} from 'react';
 import { Container } from 'react-bootstrap';
 import './App.css';
 import {GitHub} from './common/GitHub';
-import {ForceDirectedGraph} from './components/ForceDirectedGraph';
 import { ForceGraph2D } from 'react-force-graph';
-// import c from './datasets/repos.json';
 
 interface Props {
   isOver?: boolean;
